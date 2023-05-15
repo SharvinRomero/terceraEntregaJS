@@ -1,0 +1,34 @@
+[
+    {
+        "id": "lamparaSkrap",
+        "imagen": "./img/lamp/lamp-skrap-blue-front.jpg",
+        "descripcion": "Lampara de base azul con pantalla semi-esferica y dispersión de 180°",
+        "nombre": "Lámpara Skrap",
+        "precio": 45,
+        "fecha": "05/01/2023"
+    },
+    {
+        "id": "relojNeut",
+        "imagen": "./img/clock/clock-neut-wood-front.jpg",
+        "descripcion": "Reloj analogo de pared, fondo blanco con borde de madera y agujas negra",
+        "nombre": "Reloj Neut Madera",
+        "precio": 24,
+        "fecha": "04/08/2023"
+    },
+    {
+        "id": "sillonDaze",
+        "imagen": "./img/chairs/armchair-daze-front.jpg",
+        "descripcion": "Sillon con armazon en acero acolchado de espuma reactiva y forrado en gamuza de color ceniza",
+        "nombre": "Sillón Daze",
+        "precio": 83,
+        "fecha": "01/24/2023"
+    },
+    {
+        "id": "sillaGretchen",
+        "imagen": "./img/chairs/chair-gretchen-front.jpg",
+        "descripcion": "Sillon de madera seccionada con tabiques curvos de apoyo, cuatro patas en diagonales y curvatura de espada ergonomica",
+        "nombre": "Silla Gretchen",
+        "precio": 35,
+        "fecha": "12/05/2022"
+    }
+]

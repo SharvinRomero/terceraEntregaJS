@@ -1,0 +1,34 @@
+[
+    {
+        "id": "sillonGreen",
+        "imagen": "./img/chairs/armchair-green-front.jpg",
+        "descripcion": "Sillon Green compuesta con estructura de madera estilizada, con acolchado de fibra de silicon recubierto con cuero begano color verde",
+        "nombre": "Sillon Green",
+        "precio": 90,
+        "fecha": "08/05/2022"
+    },
+    {
+        "id": "tabureteAlfa",
+        "imagen": "./img/chairs/stool-alfa-front.jpg",
+        "descripcion": "Taburete Alfa de cuatro patas armado en madera con acabados de lujo de enchapados con bronce",
+        "nombre": "Taburete Alfa",
+        "precio": 45,
+        "fecha": "12/25/2022"
+    },
+    {
+        "id": "tabureteAlfa",
+        "imagen": "./img/chairs/table-rol-perspective.jpg",
+        "descripcion": "Ratonera Rol construida de cuatro patas en acero pintado con laca de color negro, soporte superio de madera caoba oscura con triple laqueado",
+        "nombre": "Ratonera Rol",
+        "precio": 75,
+        "fecha": "02/14/2023"
+    },
+    {
+        "id": "tabureteAlfa",
+        "imagen": "./img/chairs/chair-olga-perspective.jpg",
+        "descripcion": "Silla Olga construida en madera modelada con soporte transversal en las patas, malla de soporte en tiras de nylon, cojin de empuma de alta denisidad recubierto con lona verde",
+        "nombre": "Silla Olga",
+        "precio": 75,
+        "fecha": "03/03/2023"
+    }
+]
