@@ -212,22 +212,22 @@ window.addEventListener('load', function () {
 
 	const valorCuota = valorTotal / numCuotas;
 
-	const tasaInteres = 0.05; // Tasa de interés del 5%
+	const tasaInteres = 0.05; // interés del 5%
 	const valorInteres = valorTotal * tasaInteres;
 	const valorCuotaConInteres = (valorTotal + valorInteres) / numCuotas;
 
 	// Mostrar el valor de cada cuota en la página web
-	const selectCuotas = document.getElementById('dues'); // Elemento select en la página web
+	const selectCuotas = document.getElementById('dues');
 	const cuotas = [1, 2, 3]; // Opciones de cuotas disponibles en el select
 	for (let i = 0; i < cuotas.length; i++) {
 		const cuota = cuotas[i];
 		const option = document.createElement('option');
 		option.value = cuota;
-		option.text = `${cuota} cuotas de `;
+		option.text = `${cuota} cuotas`;
 		if (cuota === 1) {
 			option.text += ` $${valorTotal.toFixed(2)}`;
 		} else {
-			option.text += ` $${valorCuotaConInteres.toFixed(2)} total final(${(valorCuotaConInteres * cuota).toFixed(2)})`;
+			option.text += ` de $${(valorCuotaConInteres * cuota).toFixed(2)}`;
 		}
 		selectCuotas.appendChild(option);
 	}
