@@ -227,7 +227,7 @@ window.addEventListener('load', function () {
 		if (cuota === 1) {
 			option.text += ` $${valorTotal.toFixed(2)}`;
 		} else {
-			option.text += ` de $${(valorCuotaConInteres * cuota).toFixed(2)}`;
+			option.text += ` de $${(valorCuota + valorCuotaConInteres).toFixed(2)} cobro final $${((valorCuotaConInteres + valorCuota) * cuota).toFixed(2)}`;
 		}
 		selectCuotas.appendChild(option);
 	}
